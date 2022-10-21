@@ -5,6 +5,6 @@
   "version": "1.0",
   "action": {
     "default_popup": "jumpscare.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": "https://live.staticflickr.com/65535/52443325747_f03a09588d_z.jpg"
   }
 }
