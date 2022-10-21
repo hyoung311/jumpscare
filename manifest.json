@@ -3,8 +3,8 @@
   "name": "Jump Scares",
   "description": "Jump Scares for Funsies Extension",
   "version": "1.0",
-  "action": {},
-  "browser_action": {
+
+  "action": {
     "default_popup": "jumpscare.html",
     "default_icon": "Jumpscareimg.png"
   },
@@ -19,7 +19,7 @@
   ],
   "background": [
     {
-      "service_worker": ["background.js"]
+      "service_worker": "background.js"
     }
   ]
 
