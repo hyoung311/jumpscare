@@ -1,9 +1,9 @@
-console.log('background running');
+console.log('background running!');
 
 chrome.action.onClicked.addListener((tab) => {
     chrome.scripting.executeScript({
       target: {tabId: tab.id},
-      files: ['content.js']
+      files: ['popup.js']
     });
   });
 
